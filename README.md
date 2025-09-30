@@ -1,15 +1,43 @@
-# React + Vite
+# Assembly Endgame 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun React mini-game built during the **freeCodeCamp React Course**.  
+It’s like Hangman, but with a programming twist!
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Built with **React + Vite**
+- Hot reload for smooth development
+- Simple but fun word-guessing game
+- Deployed on **Vercel**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 How to Play
 
-## Expanding the ESLint configuration
+1. Start the game by running:
+   ```bash
+   git clone https://github.com/Abdslamekessou/assembly-endgame.git
+   cd assembly-endgame
+   npm install
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Then open the game in your browser.
 
 
-live Server :  assembly-endgame-pi.vercel.app
+The computer picks a secret word.
+
+You guess letters, one by one.
+
+✅ Correct letter → revealed in the word.
+
+❌ Wrong letter → you lose one programming language from your stack.
+
+Keep guessing until:
+
+You reveal the whole word = You Win 🎉
+
+You run out of programming languages = Game Over 💀
+
+
+## 👉 Try it live here:
+```bash
+https://assembly-endgame-pi.vercel.app/
+```
